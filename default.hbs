@@ -49,8 +49,8 @@
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="/assets/js/index.js"></script>
 
+     {{! include a specific JS file with same title as post }}
     {{#post}}
-        {{! include a specific JS file with same title as post }}
         <script src="/assets/js/{{{title}}}.js"></script>
     {{/post}}
 </body>
